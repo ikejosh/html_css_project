@@ -1,0 +1,58 @@
+* {
+    margin: 0%;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    box-shadow: 2px 2px 2px black;
+    position: fixed;
+    justify-content: space-between;
+}
+
+.Buttons {
+    margin-top: 20px;
+    margin-left: 20%;
+   
+}
+
+.Container{
+background-color: rgb(203, 250, 234);
+height: 100vh;
+}
+
+.text{
+    
+}
+
+.middlecontainer{
+    padding-top: 20%;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+/* .smallcontainer{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 2px 5px 10px black;
+    display: flex;
+}
+
+.Container{
+    background: linear-gradient(rgb(216, 216, 255)), url(../img/MANPNG.png) center/ cover no-repeat fixed;
+    height: 100vh;
+    display: flex;
+    padding-top: 25%;
+
+} */

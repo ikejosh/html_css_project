@@ -1,0 +1,43 @@
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+.container {
+    background-color: white;
+    margin: 0 8px;
+    width: 100%;
+padding: 2px 30px;
+text-align: center;
+display: flex;
+justify-content: space-between;
+}
+.rating ,fa{
+    color: #f6bb1E;
+}
+.cart{
+    background-color:#f6bb1E ;
+    margin: 10px 40px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    color: white;
+    display: none;
+}
+
+.cart a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    }
+.product-1:hover{
+    box-shadow: 2px 4px 18px #ccc;
+    cursor: pointer;
+}
+.product-1:hover .cart{
+    display: block;
+}

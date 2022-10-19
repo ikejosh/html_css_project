@@ -1,0 +1,27 @@
+*{
+    margin: 0%;
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow:  2px 5px 20px black;
+}
+.second-container{
+display: flex;
+}
+
+.top-div{
+    display: flex;
+}
+.down-div{
+    display: flex;
+}
+.fourth-Container{
+    display: flex;
+}
+.textdivfifth-firstbigbox{
+    display: flex;
+}

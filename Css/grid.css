@@ -1,0 +1,14 @@
+*{
+    margin: 0%;
+    padding: 0px;
+}
+.all-grid{
+    display: grid;
+    /* grid-template-columns: 1fr 2fr 1fr 1fr; use this if you want them to manuelly pass space */
+    grid-template-columns: repeat(3,1fr); 
+}
+@media(max-width:800px){  /*used for responsiveness*/
+    all-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+}

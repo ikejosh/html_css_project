@@ -1,0 +1,48 @@
+.flex{
+    display: flex; /* used to pass class within html*/
+}
+.justify{
+    justify-content: center;
+}
+.alldiv{
+     display:flex;
+    padding-top: 30px;
+    margin: 0 10%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-center a{
+text-decoration: none;
+margin:0 25px;
+font-size: 15px;
+color: black;
+font-weight: bold;
+}
+.nav-right{
+    background-color: #f3603c;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.all-hero, .all-manage {
+   margin: 7% 10%;
+}
+
+.hero-left h1 span{
+    display: block;
+    font-size: 70px;
+}
+.track-number h5{
+background-color:#f3603c;
+color: white;
+padding: 7px 10px;
+border-radius: 20px;
+font-size: 20px;
+margin: 0 10px;
+align-content: center;
+justify-content: center;
+
+}
